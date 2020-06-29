@@ -1,0 +1,141 @@
+body {
+    background-color: #111111;
+}
+.bg-white {
+    background-color: #111;
+}
+.navbar-light,
+.navbar-brand {
+    color: #fefefe;
+}
+.nav-link,
+.dropdown-toggle {
+    color: #fefefe;
+}
+.goods {
+    box-shadow: 0 0 8px #fefefe;
+    margin: 80px auto;
+    padding: 10px auto;
+    background-color: rgb(51, 255, 85);
+    border-radius: 40px;
+    width: 150px;
+    height: 40px;
+}
+.container-fluid {
+    color: #fefefe;
+    font-family: "Nunito";
+}
+.col-xs-6,
+.col-sm-4,
+.col-md-4 {
+    width: 80%;
+}
+.d-flex {
+    background-color: #111111;
+}
+.mycart_box {
+    color: #fefefe;
+}
+.movie-title {
+    font-family: serif;
+    margin: 15px auto;
+}
+.movie-price {
+    margin: 15px auto;
+}
+img.cart {
+    width: 30%;
+}
+img.incart {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    object-fit: cover;
+}
+.mycart_box {
+    color: #fefefe;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    margin-top: 24px;
+    padding: 24px 8px;
+    font-size: 1.1em;
+    background-color: #111111;
+}
+.content {
+    font-weight: normal;
+}
+.submit {
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgb(51, 255, 85);
+    box-shadow: 0 0 8px #fefefe;
+    font-family: serif;
+}
+.footer_design {
+    background-color: #07728a;
+    text-align: center;
+    color: #fefefe;
+    padding: 60px;
+}
+.buy-btn {
+    margin: 40px auto 60px;
+    width: 200px;
+    display: block;
+    background-color: #ff5c73;
+    font-family: serif;
+}
+.ball {
+    position: absolute;
+}
+.pagenate {
+    width: 200px;
+    margin: 20px auto;
+}
+.incartmovie {
+    text-align: center;
+    width: 70%;
+    height: 50%;
+}
+.p-2 {
+    font-family: serif;
+}
+.deletemovie {
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgb(51, 255, 85);
+    box-shadow: 0 0 8px #fefefe;
+    font-family: serif;
+    margin: 20px 0;
+}
+.card-body {
+    text-align: center;
+}
+.footer {
+    height: 250px;
+    background-color: #111111;
+    color: #fefefe;
+    text-align: center;
+    border-bottom: 3px solid rgb(51, 255, 85);
+}
+.inroom {
+    padding-top: 50px;
+    border-top: 1px solid rgb(51, 255, 85);
+}
+.copyright {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .col-xs-6,
+    .col-sm-4,
+    .col-md-4 {
+        width: 100%;
+    }
+    .incartmovie {
+        text-align: center;
+        width: 70%;
+        height: 40%;
+    }
+}
